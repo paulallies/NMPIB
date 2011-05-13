@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{00000000-0000-0000-0000-000000000000}") = "NMPIB", "NMPIB\NMPIB.csproj", "{3383B686-1F81-4DE5-BFBE-BD9162310616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NMPIB.Tests", "NMPIB.Tests\NMPIB.Tests.csproj", "{F3C96C85-EAA7-4D27-8D23-22D7A79BE4E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageBrowser", "ImageBrowser\ImageBrowser.csproj", "{25E3CC1E-21E0-44F2-9561-170F1A392FE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3383B686-1F81-4DE5-BFBE-BD9162310616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3383B686-1F81-4DE5-BFBE-BD9162310616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3383B686-1F81-4DE5-BFBE-BD9162310616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3383B686-1F81-4DE5-BFBE-BD9162310616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C96C85-EAA7-4D27-8D23-22D7A79BE4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C96C85-EAA7-4D27-8D23-22D7A79BE4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C96C85-EAA7-4D27-8D23-22D7A79BE4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C96C85-EAA7-4D27-8D23-22D7A79BE4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E3CC1E-21E0-44F2-9561-170F1A392FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E3CC1E-21E0-44F2-9561-170F1A392FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E3CC1E-21E0-44F2-9561-170F1A392FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E3CC1E-21E0-44F2-9561-170F1A392FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

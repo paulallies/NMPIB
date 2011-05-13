@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NMPIB">
+</Property><Property Name="Solution File" Value="Z:\Projects\NMPIB\NMPIB.sln">
+</Property><Property Name="User Options File" Value="Z:\Projects\NMPIB\NMPIB.suo">
+</Property><Property Name="Date" Value="29 November 2009">
+</Property><Property Name="Time" Value="09:54 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="NMPIB.sln" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB.sln">
+</Event><Event ErrorLevel="0" Project="" Source="NMPIB.suo" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB.suo">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\NMPIB.csproj" Description="Project file successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\NMPIB.csproj">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\NMPIB.csproj.user" Description="Project user file successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\NMPIB.csproj.user">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Controllers\AccountController.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Controllers\AccountController.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Controllers\HomeController.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Controllers\HomeController.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Controllers\ImageController.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Controllers\ImageController.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Controllers\MagController.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Controllers\MagController.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Controllers\ReproController.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Controllers\ReproController.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\CreateWebForm.aspx.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\CreateWebForm.aspx.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\CreateWebForm.aspx.designer.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\CreateWebForm.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Default.aspx.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Default.aspx.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Global.asax.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Global.asax.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Helpers\MenuHelper.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Helpers\MenuHelper.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Helpers\PureCssMenu.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Helpers\PureCssMenu.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Models\MembershipService.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Models\MembershipService.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Models\nmpib.designer.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Models\nmpib.designer.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Models\NMPRoleProvider.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Models\NMPRoleProvider.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Models\Repositories\ImageRepository.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Models\Repositories\ImageRepository.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Models\Repositories\Interfaces.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Models\Repositories\Interfaces.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Models\Repositories\MagazineRepository.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Models\Repositories\MagazineRepository.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Models\Repositories\MembershipRepository.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Models\Repositories\MembershipRepository.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Models\Repositories\UserRepository.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Models\Repositories\UserRepository.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Properties\AssemblyInfo.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Shared\nmp1.Master.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Shared\nmp1.Master.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\jquery-ui-1.7.1.custom.old" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\jquery-ui-1.7.1.custom.old">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Models\nmpib.dbml" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Models\nmpib.dbml">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Models\nmpib.dbml.layout" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Models\nmpib.dbml.layout">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Models\Interfaces.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Models\Interfaces.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Models\MenuAdapter.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Models\MenuAdapter.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Default.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Default.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Global.asax" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Global.asax">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Web.config" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Web.config">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\Site.css" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\Site.css">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Scripts\jquery-1.3.2.min.js" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Scripts\jquery-1.3.2.min.js">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Account\ChangePassword.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Account\ChangePassword.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Account\ChangePasswordSuccess.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Account\ChangePasswordSuccess.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Account\LogOn.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Account\LogOn.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Account\Register.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Account\Register.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Home\About.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Home\About.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Home\Index.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Home\Index.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Shared\Error.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Shared\Error.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Shared\LogOnUserControl.ascx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Shared\LogOnUserControl.ascx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Web.config" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Web.config">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\gray_div.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\gray_div.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\gray_panel_bottomcap2.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\gray_panel_bottomcap2.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\green_background_img.jpg" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\green_background_img.jpg">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\grn_gradient.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\grn_gradient.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\hero_background.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\hero_background.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\hero_nsl_bg.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\hero_nsl_bg.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\hero_topshadow_left.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\hero_topshadow_left.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\hero_topshadow_right.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\hero_topshadow_right.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\search_btn.jpg" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\search_btn.jpg">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\subnav\subnav_div.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\subnav\subnav_div.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\subnav\subnav_hover_left.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\subnav\subnav_hover_left.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\subnav\subnav_hover_middle.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\subnav\subnav_hover_middle.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\subnav\subnav_hover_right.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\subnav\subnav_hover_right.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\subnav\subnav_slice.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\subnav\subnav_slice.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\topnav\topnav_div.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\topnav\topnav_div.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\topnav\topnav_hover_left2.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\topnav\topnav_hover_left2.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\topnav\topnav_hover_middle2.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\topnav\topnav_hover_middle2.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\topnav\topnav_hover_right2.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\topnav\topnav_hover_right2.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\topnav\topnav_left.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\topnav\topnav_left.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\topnav\topnav_middle.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\topnav\topnav_middle.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\topnav\topnav_right.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\topnav\topnav_right.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\vs_mainlogo.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\vs_mainlogo.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\websearchbtn.gif" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\websearchbtn.gif">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\main.css" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\main.css">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\nav.css" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\nav.css">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Scripts\JQueryNav.js" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Scripts\JQueryNav.js">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Scripts\nav.js" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Scripts\nav.js">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Shared\nmp.Master" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Shared\nmp.Master">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\blank.gif" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\blank.gif">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\flash\uploadify.swf" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\flash\uploadify.swf">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\cancel.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\cancel.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\NMP_LOGO_web.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\NMP_LOGO_web.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\ui-bg_flat_30_cccccc_40x100.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\ui-bg_flat_30_cccccc_40x100.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\ui-bg_flat_50_5c5c5c_40x100.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\ui-bg_flat_50_5c5c5c_40x100.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\ui-bg_glass_40_ffc73d_1x400.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\ui-bg_glass_40_ffc73d_1x400.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\ui-bg_highlight-hard_20_0972a5_1x100.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\ui-bg_highlight-hard_20_0972a5_1x100.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\ui-bg_highlight-soft_33_003147_1x100.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\ui-bg_highlight-soft_33_003147_1x100.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\ui-bg_highlight-soft_35_222222_1x100.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\ui-bg_highlight-soft_35_222222_1x100.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\ui-bg_highlight-soft_44_444444_1x100.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\ui-bg_highlight-soft_44_444444_1x100.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\ui-bg_highlight-soft_80_eeeeee_1x100.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\ui-bg_highlight-soft_80_eeeeee_1x100.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\ui-bg_loop_25_000000_21x21.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\ui-bg_loop_25_000000_21x21.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\ui-icons_222222_256x240.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\ui-icons_222222_256x240.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\ui-icons_4b8e0b_256x240.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\ui-icons_4b8e0b_256x240.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\ui-icons_a83300_256x240.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\ui-icons_a83300_256x240.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\ui-icons_cccccc_256x240.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\ui-icons_cccccc_256x240.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\ui-icons_ffffff_256x240.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\ui-icons_ffffff_256x240.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\jquery-ui-1.7.2.custom.css" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\jquery-ui-1.7.2.custom.css">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\Pager.css" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\Pager.css">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\PureCssMenu.css" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\PureCssMenu.css">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\PureCssMenu\arrv_white.gif" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\PureCssMenu\arrv_white.gif">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\PureCssMenu\arr_black.gif" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\PureCssMenu\arr_black.gif">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\PureCssMenu\arr_white.gif" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\PureCssMenu\arr_white.gif">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\PureCssMenu\btn3.jpg" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\PureCssMenu\btn3.jpg">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\PureCssMenu\btn4.jpg" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\PureCssMenu\btn4.jpg">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\site_sprite_pageNavBtns.gif" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\site_sprite_pageNavBtns.gif">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\uploadify.css" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\uploadify.css">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Scripts\common.js" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Scripts\common.js">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Scripts\jquery-ui-1.7.2.custom.min.js" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Scripts\jquery-ui-1.7.2.custom.min.js">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Scripts\jquery.jqURL.js" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Scripts\jquery.jqURL.js">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Scripts\ui.core.js" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Scripts\ui.core.js">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Image\Create.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Image\Create.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Image\Create2.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Image\Create2.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Image\Details.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Image\Details.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Image\Edit.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Image\Edit.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Image\Index.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Image\Index.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Image\SLCreate.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Image\SLCreate.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Repro\Index.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Repro\Index.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Web.sitemap" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Web.sitemap">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\sprite.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\sprite.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Views\Shared\nmp1.Master" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Views\Shared\nmp1.Master">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\install-silverlight-316x127.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\install-silverlight-316x127.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\SLCreate.JPG" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\SLCreate.JPG">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\SLCreateInstall.jpg" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\SLCreateInstall.jpg">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\Content\images\WebPromptIndirect.png" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\Content\images\WebPromptIndirect.png">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\CreateWebForm.aspx" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB\CreateWebForm.aspx">
+</Event><Event ErrorLevel="0" Project="NMPIB" Source="NMPIB\NMPIB.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NMPIB" Source="NMPIB\NMPIB.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NMPIB.Tests" Source="NMPIB.Tests\NMPIB.Tests.csproj" Description="Project file successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB.Tests\NMPIB.Tests.csproj">
+</Event><Event ErrorLevel="0" Project="NMPIB.Tests" Source="NMPIB.Tests\Properties\AssemblyInfo.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB.Tests\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB.Tests" Source="NMPIB.Tests\Controllers\HomeControllerTest.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB.Tests\Controllers\HomeControllerTest.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB.Tests" Source="NMPIB.Tests\Controllers\AccountControllerTest.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB.Tests\Controllers\AccountControllerTest.cs">
+</Event><Event ErrorLevel="0" Project="NMPIB.Tests" Source="NMPIB.Tests\AuthoringTests.txt" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB.Tests\AuthoringTests.txt">
+</Event><Event ErrorLevel="0" Project="NMPIB.Tests" Source="NMPIB.Tests\App.config" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\NMPIB.Tests\App.config">
+</Event><Event ErrorLevel="0" Project="NMPIB.Tests" Source="NMPIB.Tests\NMPIB.Tests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NMPIB.Tests" Source="NMPIB.Tests\NMPIB.Tests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ImageBrowser" Source="ImageBrowser\ImageBrowser.csproj" Description="Project file successfully backed up as Z:\Projects\NMPIB\Backup\ImageBrowser\ImageBrowser.csproj">
+</Event><Event ErrorLevel="0" Project="ImageBrowser" Source="ImageBrowser\ImageBrowser.csproj.user" Description="Project user file successfully backed up as Z:\Projects\NMPIB\Backup\ImageBrowser\ImageBrowser.csproj.user">
+</Event><Event ErrorLevel="0" Project="ImageBrowser" Source="ImageBrowser\App.xaml.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\ImageBrowser\App.xaml.cs">
+</Event><Event ErrorLevel="0" Project="ImageBrowser" Source="ImageBrowser\MainPage.xaml.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\ImageBrowser\MainPage.xaml.cs">
+</Event><Event ErrorLevel="0" Project="ImageBrowser" Source="ImageBrowser\Properties\AssemblyInfo.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\ImageBrowser\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ImageBrowser" Source="ImageBrowser\Repository.cs" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\ImageBrowser\Repository.cs">
+</Event><Event ErrorLevel="0" Project="ImageBrowser" Source="ImageBrowser\Properties\AppManifest.xml" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\ImageBrowser\Properties\AppManifest.xml">
+</Event><Event ErrorLevel="0" Project="ImageBrowser" Source="ImageBrowser\App.xaml" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\ImageBrowser\App.xaml">
+</Event><Event ErrorLevel="0" Project="ImageBrowser" Source="ImageBrowser\MainPage.xaml" Description="File successfully backed up as Z:\Projects\NMPIB\Backup\ImageBrowser\MainPage.xaml">
+</Event><Event ErrorLevel="0" Project="ImageBrowser" Source="ImageBrowser\ImageBrowser.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ImageBrowser" Source="ImageBrowser\ImageBrowser.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="NMPIB.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="NMPIB.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NMPIB.Tests" Source="NMPIB.Tests\NMPIB.Tests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ImageBrowser" Source="ImageBrowser\ImageBrowser.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

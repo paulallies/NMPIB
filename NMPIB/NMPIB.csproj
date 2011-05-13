@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3383B686-1F81-4DE5-BFBE-BD9162310616}</ProjectGuid>
+    <ProjectTypeGuids>{603c0e0b-db56-11dc-be95-000d561079b0};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NMPIB</RootNamespace>
+    <AssemblyName>NMPIB</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <SilverlightApplicationList>
+    </SilverlightApplicationList>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>Z:\Projects\NMPIB\Backup\NMPIB\</UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ImageController.cs" />
+    <Compile Include="Controllers\MagController.cs" />
+    <Compile Include="Controllers\ReproController.cs" />
+    <Compile Include="CreateWebForm.aspx.cs">
+      <DependentUpon>CreateWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateWebForm.aspx.designer.cs">
+      <DependentUpon>CreateWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\MenuHelper.cs" />
+    <Compile Include="Helpers\PureCssMenu.cs" />
+    <Content Include="Models\Interfaces.cs" />
+    <Compile Include="Models\MembershipService.cs" />
+    <Content Include="Models\MenuAdapter.cs" />
+    <Compile Include="Models\nmpib.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>nmpib.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NMPRoleProvider.cs" />
+    <Compile Include="Models\Repositories\ImageRepository.cs" />
+    <Compile Include="Models\Repositories\Interfaces.cs" />
+    <Compile Include="Models\Repositories\MagazineRepository.cs" />
+    <Compile Include="Models\Repositories\MembershipRepository.cs" />
+    <Compile Include="Models\Repositories\UserRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Shared\nmp1.Master.cs">
+      <DependentUpon>nmp1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\jquery-1.3.2.min.js" />
+    <Content Include="Views\Account\ChangePassword.aspx" />
+    <Content Include="Views\Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Views\Account\LogOn.aspx" />
+    <Content Include="Views\Account\Register.aspx" />
+    <Content Include="Views\Home\About.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Shared\Error.aspx" />
+    <Content Include="Views\Shared\LogOnUserControl.ascx" />
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\images\gray_div.png" />
+    <Content Include="Content\images\gray_panel_bottomcap2.png" />
+    <Content Include="Content\images\green_background_img.jpg" />
+    <Content Include="Content\images\grn_gradient.png" />
+    <Content Include="Content\images\hero_background.png" />
+    <Content Include="Content\images\hero_nsl_bg.png" />
+    <Content Include="Content\images\hero_topshadow_left.png" />
+    <Content Include="Content\images\hero_topshadow_right.png" />
+    <Content Include="Content\images\search_btn.jpg" />
+    <Content Include="Content\images\subnav\subnav_div.png" />
+    <Content Include="Content\images\subnav\subnav_hover_left.png" />
+    <Content Include="Content\images\subnav\subnav_hover_middle.png" />
+    <Content Include="Content\images\subnav\subnav_hover_right.png" />
+    <Content Include="Content\images\subnav\subnav_slice.png" />
+    <Content Include="Content\images\topnav\topnav_div.png" />
+    <Content Include="Content\images\topnav\topnav_hover_left2.png" />
+    <Content Include="Content\images\topnav\topnav_hover_middle2.png" />
+    <Content Include="Content\images\topnav\topnav_hover_right2.png" />
+    <Content Include="Content\images\topnav\topnav_left.png" />
+    <Content Include="Content\images\topnav\topnav_middle.png" />
+    <Content Include="Content\images\topnav\topnav_right.png" />
+    <Content Include="Content\images\vs_mainlogo.png" />
+    <Content Include="Content\images\websearchbtn.gif" />
+    <Content Include="Content\main.css" />
+    <Content Include="Content\nav.css" />
+    <Content Include="Scripts\JQueryNav.js" />
+    <Content Include="Scripts\nav.js" />
+    <Content Include="Views\Shared\nmp.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\blank.gif" />
+    <Content Include="Content\flash\uploadify.swf" />
+    <Content Include="Content\images\cancel.png" />
+    <Content Include="Content\images\NMP_LOGO_web.png" />
+    <None Include="Content\jquery-ui-1.7.1.custom.old" />
+    <Content Include="Content\images\ui-bg_flat_30_cccccc_40x100.png" />
+    <Content Include="Content\images\ui-bg_flat_50_5c5c5c_40x100.png" />
+    <Content Include="Content\images\ui-bg_glass_40_ffc73d_1x400.png" />
+    <Content Include="Content\images\ui-bg_highlight-hard_20_0972a5_1x100.png" />
+    <Content Include="Content\images\ui-bg_highlight-soft_33_003147_1x100.png" />
+    <Content Include="Content\images\ui-bg_highlight-soft_35_222222_1x100.png" />
+    <Content Include="Content\images\ui-bg_highlight-soft_44_444444_1x100.png" />
+    <Content Include="Content\images\ui-bg_highlight-soft_80_eeeeee_1x100.png" />
+    <Content Include="Content\images\ui-bg_loop_25_000000_21x21.png" />
+    <Content Include="Content\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\images\ui-icons_4b8e0b_256x240.png" />
+    <Content Include="Content\images\ui-icons_a83300_256x240.png" />
+    <Content Include="Content\images\ui-icons_cccccc_256x240.png" />
+    <Content Include="Content\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\jquery-ui-1.7.2.custom.css" />
+    <Content Include="Content\Pager.css" />
+    <Content Include="Content\PureCssMenu.css" />
+    <Content Include="Content\PureCssMenu\arrv_white.gif" />
+    <Content Include="Content\PureCssMenu\arr_black.gif" />
+    <Content Include="Content\PureCssMenu\arr_white.gif" />
+    <Content Include="Content\PureCssMenu\btn3.jpg" />
+    <Content Include="Content\PureCssMenu\btn4.jpg" />
+    <Content Include="Content\site_sprite_pageNavBtns.gif" />
+    <Content Include="Content\uploadify.css" />
+    <Content Include="Scripts\common.js" />
+    <Content Include="Scripts\jquery-ui-1.7.2.custom.min.js" />
+    <Content Include="Scripts\jquery.jqURL.js" />
+    <Content Include="Scripts\ui.core.js" />
+    <Content Include="Views\Image\Create.aspx" />
+    <Content Include="Views\Image\Create2.aspx" />
+    <Content Include="Views\Image\Details.aspx" />
+    <Content Include="Views\Image\Edit.aspx" />
+    <Content Include="Views\Image\Index.aspx" />
+    <Content Include="Views\Image\SLCreate.aspx" />
+    <Content Include="Views\Repro\Index.aspx" />
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\nmpib.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>nmpib.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\nmpib.dbml.layout">
+      <DependentUpon>nmpib.dbml</DependentUpon>
+    </None>
+    <Content Include="Content\images\sprite.png" />
+    <Content Include="Views\Shared\nmp1.Master" />
+    <Content Include="Content\images\install-silverlight-316x127.png" />
+    <Content Include="Content\images\SLCreate.JPG" />
+    <Content Include="Content\images\SLCreateInstall.jpg" />
+    <Content Include="Content\images\WebPromptIndirect.png" />
+    <Content Include="CreateWebForm.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="photos\preview\" />
+    <Folder Include="photos\thumb\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target> -->
+  <Target Name="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(ProjectDir)\..\$(ProjectName)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>33</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="nmp" Class="nmpibDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=nmp;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="nmpConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbl_Images" Member="tbl_Images">
+    <Type Name="tbl_Image">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="magazine_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="magazine_issue" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="shoot_description" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="shoot_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="keywords" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Column Name="photographer" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="true" />
+      <Column Name="thumb_location" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="preview_location" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="date_uploaded" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="date_updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="tbl_publication_tbl_Image" Member="tbl_publication" ThisKey="magazine_id" OtherKey="id" Type="tbl_publication" IsForeignKey="true" />
+      <Association Name="tbl_user_tbl_Image" Member="tbl_user" ThisKey="photographer" OtherKey="id" Type="tbl_user" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_publications" Member="tbl_publications">
+    <Type Name="tbl_publication">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="active" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_publication_tbl_Image" Member="tbl_Images" ThisKey="id" OtherKey="magazine_id" Type="tbl_Image" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_users" Member="tbl_users">
+    <Type Name="tbl_user">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Enabled" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="tbl_user_tbl_Image" Member="tbl_Images" ThisKey="id" OtherKey="photographer" Type="tbl_Image" />
+      <Association Name="tbl_user_tbl_roles2user" Member="tbl_roles2users" ThisKey="id" OtherKey="UserID" Type="tbl_roles2user" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_roles2users" Member="tbl_roles2users">
+    <Type Name="tbl_roles2user">
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="tbl_user_tbl_roles2user" Member="tbl_user" ThisKey="UserID" OtherKey="id" Type="tbl_user" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="tbl_role_tbl_roles2user" Member="tbl_role" ThisKey="RoleID" OtherKey="id" Type="tbl_role" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_roles" Member="tbl_roles">
+    <Type Name="tbl_role">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="appid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rolename" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="displayorder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tbl_role_tbl_roles2user" Member="tbl_roles2users" ThisKey="id" OtherKey="RoleID" Type="tbl_roles2user" />
+    </Type>
+  </Table>
+</Database>

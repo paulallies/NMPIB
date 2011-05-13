@@ -1,0 +1,5 @@
+Z:\Projects\NMPIB\Backup\NMPIB\bin\NMPIB.dll
+Z:\Projects\NMPIB\Backup\NMPIB\bin\NMPIB.pdb
+Z:\Projects\NMPIB\Backup\NMPIB\obj\Debug\ResolveAssemblyReference.cache
+Z:\Projects\NMPIB\Backup\NMPIB\obj\Debug\NMPIB.dll
+Z:\Projects\NMPIB\Backup\NMPIB\obj\Debug\NMPIB.pdb

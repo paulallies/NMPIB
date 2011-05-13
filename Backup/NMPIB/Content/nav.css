@@ -1,0 +1,66 @@
+﻿.newSubNnav_item_left_selected, .newSubNnav_item_left_hover
+{
+    background-image: url(/content/images/subnav/subnav_hover_left.png);
+}
+
+
+.newSubNnav_item_right_selected, .newSubNnav_item_right_hover
+{
+    background-image: url(/content/images/subnav/subnav_hover_right.png);
+}
+
+.newSubNnav_item_middle_selected, .newSubNnav_item_middle_hover
+{
+    background-image: url(/content/images/subnav/subnav_hover_middle.png);
+}
+
+.topnav_item_left_selected, .topnav_item_left_hover
+{
+background-image : url(/content/images/topnav/topnav_hover_left2.png);
+}
+
+.topnav_item_right_selected, .topnav_item_right_hover
+{
+background-image : url(/content/images/topnav/topnav_hover_right2.png);
+}
+
+.topnav_item_middle_selected, .topnav_item_middle_hover
+{
+background-image : url(/content/images/topnav/topnav_hover_middle2.png);
+}
+
+.topnav_item_divider
+{
+    background-image: url(/content/images/topnav/topnav_div.png);
+}
+
+
+.subnav_item_divider
+{
+    background-image: url(/content/images/subnav/subnav_div.png);
+}
+
+.SubNavItems
+{
+background-image: url(/content/images/subnav/subnav_slice.png);
+}
+
+.topnav_item 
+{
+    background-image : url(/content/images/topnav/topnav_middle.png);
+}
+
+#TopNavigation
+{
+    background-image: url(/content/images/topnav/topnav_right.png);
+}
+
+#topNavLeftBorder
+{
+    background-image: url(/content/images/topnav/topnav_left.png);
+}
+
+#topNavRightBorder
+{
+background-image: url(/content/images/topnav/topnav_right.png);
+}

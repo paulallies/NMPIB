@@ -1,0 +1,8 @@
+Z:\Projects\NMPIB\Backup\NMPIB.Tests\bin\Debug\NMPIB.Tests.dll.config
+Z:\Projects\NMPIB\Backup\NMPIB.Tests\bin\Debug\NMPIB.Tests.dll
+Z:\Projects\NMPIB\Backup\NMPIB.Tests\bin\Debug\NMPIB.Tests.pdb
+Z:\Projects\NMPIB\Backup\NMPIB.Tests\bin\Debug\NMPIB.dll
+Z:\Projects\NMPIB\Backup\NMPIB.Tests\bin\Debug\NMPIB.pdb
+Z:\Projects\NMPIB\Backup\NMPIB.Tests\obj\Debug\ResolveAssemblyReference.cache
+Z:\Projects\NMPIB\Backup\NMPIB.Tests\obj\Debug\NMPIB.Tests.dll
+Z:\Projects\NMPIB\Backup\NMPIB.Tests\obj\Debug\NMPIB.Tests.pdb

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+        <siteMapNode url="/" title="Home"  description="Home"  roles="*" />
+        <siteMapNode url="/Image/" title="Manage Images"  description="Manage Images"  roles="PhotographyManager,PhotographyUser" >
+            <!--<siteMapNode url="/Image/Create" title="Add Image"  description="Add Image"  roles="PhotographyManager, PhotographyUser" />-->
+            <!--<siteMapNode url="/Image/SLCreate" title="Add Image - Silverlight"  description="Add Image"  roles="PhotographyManager, PhotographyUser" />-->
+            <siteMapNode url="/Image/Create2" title="Add Image"  description="Add Image"  roles="PhotographyManager, PhotographyUser" />
+            <!--<siteMapNode url="/CreateWebForm.aspx" title="Add Image - Classic"  description="Add Image"  roles="PhotographyManager, PhotographyUser" />-->
+
+        </siteMapNode>
+        <!--Purchase Orders -->
+        <!--<siteMapNode url="/Site_Orders/" title="Orders"  description=""  roles="*" >
+            <siteMapNode url="/PurchaseOrder/Create/" title="New Order"  description=""  roles="*" />
+            <siteMapNode url="/Suppliers/" title="Suppliers"  description=""  roles="*" />
+            <siteMapNode url="/PurchaseOrder/Queries/" title="Order Queries"  description=""  roles="*" />
+            <siteMapNode url="/OrderTypes/" title="Order Types"  description=""  roles="*" />
+            <siteMapNode url="/BusinessCards/" title="Business Cards"  description=""  roles="*" />
+        </siteMapNode>-->
+        <!-- Repro-->
+        <!--
+        <siteMapNode url="/Repro/" title="Repro"  description=""  roles="*" >
+            <siteMapNode url="/Repro/JobProfile/" title="Job Profile"  description=""  roles="*" />
+            <siteMapNode url="/Repro/Reports/" title="Reports"  description=""  roles="*" />
+           <siteMapNode url="/Repro/Items/" title="Items"  description=""  roles="*" />
+        </siteMapNode>
+        
+        --><!-- Production--><!--
+        <siteMapNode url="/Production/" title="Production"  description=""  roles="*" >
+            <siteMapNode url="/Production/JobProfile/" title="Job Profile"  description=""  roles="*" />
+            <siteMapNode url="/Production/Reports/" title="Reports"  description=""  roles="*" />
+           <siteMapNode url="/Production/Items/" title="Items"  description=""  roles="*" />
+        </siteMapNode>
+        
+       --><!-- Photography--><!--
+        <siteMapNode url="/Photography/" title="Photography"  description=""  roles="*" >
+            <siteMapNode url="/Photography/JobProfile/" title="Job Profile"  description=""  roles="*" />
+            <siteMapNode url="/Photography/Reports/" title="Reports"  description=""  roles="*" />
+           <siteMapNode url="/Photography/Items/" title="Items"  description=""  roles="*" />
+        </siteMapNode>
+
+        --><!-- Circulation--><!--
+        <siteMapNode url="/Circulation/" title="Circulation"  description=""  roles="*" >
+            <siteMapNode url="/Circulation/JobProfile/" title="Job Profile"  description=""  roles="*" />
+            <siteMapNode url="/Circulation/Reports/" title="Reports"  description=""  roles="*" />
+            <siteMapNode url="/Circulation/Clients/" title="Clients"  description=""  roles="*" />
+            <siteMapNode url="/Circulation/Items/" title="Items"  description=""  roles="*" />
+        </siteMapNode>
+
+        --><!-- PR--><!--
+        <siteMapNode url="/PR/" title="PR"  description=""  roles="*" >
+            <siteMapNode url="/PR/JobProfile/" title="Job Profile"  description=""  roles="*" />
+            <siteMapNode url="/PR/Reports/" title="Reports"  description=""  roles="*" />
+            <siteMapNode url="/PR/Clients/" title="Clients"  description=""  roles="*" />
+            <siteMapNode url="/PR/Items/" title="Items"  description=""  roles="*" />
+        </siteMapNode>
+
+        --><!-- Asset Management--><!--
+        <siteMapNode url="/AM/" title="Assets"  description=""  roles="*" />
+      
+        
+        <siteMapNode url="/Admin/" title="Admin"  description=""  roles="Admin" >
+            <siteMapNode url="/Users/" title="Users"  description=""  roles="Admin" />
+            <siteMapNode url="/Publications/" title="Publications"  description=""  roles="Admin" />
+            <siteMapNode url="/Departments/" title="Departments"  description=""  roles="Admin" />
+        </siteMapNode>-->
+    </siteMapNode>
+</siteMap>

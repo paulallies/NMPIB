@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="nmpib">
+  <DataContextMoniker Name="/nmpibDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d7cec613-c8cb-4c62-a8d8-998b0497b51f" absoluteBounds="0.5, 0.5, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/nmpibDataContext/tbl_Image" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3aad1af0-7b5e-462e-857f-ff34dac000c6" absoluteBounds="0.51499999999999968, 0.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3823caf5-bd71-4a95-b2ba-6f0ec7611297" absoluteBounds="3.875, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/nmpibDataContext/tbl_publication" />
+      <nestedChildShapes>
+        <elementListCompartment Id="40517cfe-cc2f-4104-b54d-4f153a99d554" absoluteBounds="3.8899999999999997, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.875 : 1.19314697265625); (2.5 : 1.19314697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/nmpibDataContext/tbl_publication/tbl_publication_tbl_Image" />
+      <nodes>
+        <classShapeMoniker Id="3823caf5-bd71-4a95-b2ba-6f0ec7611297" />
+        <classShapeMoniker Id="d7cec613-c8cb-4c62-a8d8-998b0497b51f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6464718f-9430-4e4d-95bc-1342b6e0e95f" absoluteBounds="0.5, 4.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/nmpibDataContext/tbl_user" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b076e952-d909-42a9-9919-3b4b4101646f" absoluteBounds="0.51500000000000012, 4.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5 : 4.25); (1.5 : 3.80930826822917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/nmpibDataContext/tbl_user/tbl_user_tbl_Image" />
+      <nodes>
+        <classShapeMoniker Id="6464718f-9430-4e4d-95bc-1342b6e0e95f" />
+        <classShapeMoniker Id="d7cec613-c8cb-4c62-a8d8-998b0497b51f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1ffb6bf0-1361-4727-a0ff-99dd22937876" absoluteBounds="3.875, 4.25, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/nmpibDataContext/tbl_roles2user" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b4ff8e62-be55-4b9d-9822-6b768a82b9ce" absoluteBounds="3.8899999999999997, 4.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 4.84699625651042); (3.875 : 4.84699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/nmpibDataContext/tbl_user/tbl_user_tbl_roles2user" />
+      <nodes>
+        <classShapeMoniker Id="6464718f-9430-4e4d-95bc-1342b6e0e95f" />
+        <classShapeMoniker Id="1ffb6bf0-1361-4727-a0ff-99dd22937876" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1ddf960d-af16-4f44-9dd7-72e0886088e3" absoluteBounds="3.875, 5.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/nmpibDataContext/tbl_role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1a9ada35-964f-4b67-bd66-efce2b902ecb" absoluteBounds="3.8899999999999997, 6.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.875 : 5.75); (4.875 : 5.44399251302083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/nmpibDataContext/tbl_role/tbl_role_tbl_roles2user" />
+      <nodes>
+        <classShapeMoniker Id="1ddf960d-af16-4f44-9dd7-72e0886088e3" />
+        <classShapeMoniker Id="1ffb6bf0-1361-4727-a0ff-99dd22937876" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
